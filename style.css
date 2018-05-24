@@ -1,0 +1,66 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-image: url("fonas.jpg");
+	background-position: center top;
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+	transition: all 0.3s;
+	background-color: #AFA093;
+	color: white;
+	font-weight: 600;
+	border: 1px solid white;
+}
+
+.btn:hover {
+	transform: scaleX(1.1);
+	background-color: #AFA093;
+	color: white;
+}
+
+.supportb {
+	margin-bottom: 8px;
+}
+
+h1, h5 {
+	text-shadow: ;
+	color: #FFFFFF;
+	text-shadow: 4px 4px 8px #000000;
+}
+
+h1 {
+	margin-bottom: 0px;
+	font-size: 4rem;
+	font-weight: 550;
+}
+
+h5 {
+	margin-bottom: 50px;
+}
+
+hr {
+	width: 100%;
+}
+
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #ddd;
+    text-align: center;
+}
